@@ -1,0 +1,7 @@
+{% extends "network/layout.html" %}
+
+{% block body %}
+    {% for i in post %}
+        {{ i.body }}
+    {% endfor %}
+{% endblock %}
